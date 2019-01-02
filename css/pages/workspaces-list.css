@@ -1,0 +1,70 @@
+.workspace-list-page .page-content .add-workspace span {
+  font-size: 1.125rem;
+  color: #2070b7;
+  font-weight: bold;
+  margin-right: 30px; }
+
+.workspace-list-page .workspace-list {
+  display: flex;
+  flex-direction: column; }
+  .workspace-list-page .workspace-list .workspace-component {
+    max-width: 1000px;
+    height: 100px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    padding: 15px 20px 15px 20px;
+    display: flex; }
+    .workspace-list-page .workspace-list .workspace-component .left-part {
+      width: 100px; }
+      .workspace-list-page .workspace-list .workspace-component .left-part .workspace-logo {
+        width: 60px;
+        height: 60px; }
+        .workspace-list-page .workspace-list .workspace-component .left-part .workspace-logo.logo-icon {
+          align-self: center; }
+        .workspace-list-page .workspace-list .workspace-component .left-part .workspace-logo.blank-logo {
+          border-radius: 30px;
+          background-color: #9e9e9e;
+          border: solid 0.5px #44cfff; }
+    .workspace-list-page .workspace-list .workspace-component .center-part {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1; }
+      .workspace-list-page .workspace-list .workspace-component .center-part .workspace-name {
+        margin-top: 10px;
+        line-height: inherit;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.125rem;
+        color: #181796; }
+      .workspace-list-page .workspace-list .workspace-component .center-part .workspace-info {
+        font-size: 0.875rem;
+        color: #212121; }
+    .workspace-list-page .workspace-list .workspace-component .buttons-part {
+      display: flex;
+      width: 100x; }
+      .workspace-list-page .workspace-list .workspace-component .buttons-part > div {
+        display: flex;
+        padding: 10px; }
+      .workspace-list-page .workspace-list .workspace-component .buttons-part .svg-icon {
+        margin: auto 0px;
+        width: 20px;
+        height: 20px;
+        fill: #44cfff; }
+    .workspace-list-page .workspace-list .workspace-component.add-workspace {
+      position: relative; }
+      .workspace-list-page .workspace-list .workspace-component.add-workspace .new-workspace-label {
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+        text-align: center;
+        font-size: 0.875rem;
+        color: #212121; }
+      .workspace-list-page .workspace-list .workspace-component.add-workspace .plus-icon {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .workspace-list-page .workspace-list .workspace-component.add-workspace .plus-icon img {
+          width: 72px; }

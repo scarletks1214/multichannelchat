@@ -1,0 +1,35 @@
+.value-editor-container {
+  padding: 5px;
+  display: flex; }
+  .value-editor-container .value-input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 5px;
+    flex-grow: 1; }
+    .value-editor-container .value-input:focus {
+      outline: none; }
+    .value-editor-container .value-input[readonly] {
+      border-bottom: none; }
+    .value-editor-container .value-input.new-entity-value {
+      border-bottom: none; }
+  .value-editor-container i {
+    line-height: inherit;
+    min-width: 20px;
+    margin-top: 6px; }
+    .value-editor-container i.edit {
+      font-size: 18px; }
+    .value-editor-container i.remove {
+      font-size: 23px; }
+
+.add-editor-component {
+  height: 33px;
+  padding: 0px 5px 0px 5px;
+  margin-bottom: 8px; }
+  .add-editor-component .autosize-input {
+    height: inherit; }
+    .add-editor-component .autosize-input input {
+      padding: 0px;
+      height: inherit; }
+  .add-editor-component img {
+    margin-left: 10px; }

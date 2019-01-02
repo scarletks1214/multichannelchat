@@ -1,0 +1,19 @@
+@import '../variables';
+@import '../mixins';
+
+.autosize-input {
+  max-width: 100%;
+  input {
+    @include stilu();
+    @include font-size(18px);
+    max-width: 100%;
+    background: none;
+    border: none;
+    margin-bottom: 1px;
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid lightgray;
+      margin-bottom: 0px;
+    }
+  }
+}

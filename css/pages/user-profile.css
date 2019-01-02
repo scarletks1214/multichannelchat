@@ -1,0 +1,41 @@
+.profile-page {
+  padding-left: 50px;
+  padding-top: 30px; }
+  .profile-page .main-area {
+    display: flex;
+    flex-direction: column; }
+    .profile-page .main-area .info-text {
+      font-size: 0.875rem; }
+    .profile-page .main-area .inputs-list {
+      display: flex;
+      flex-direction: column;
+      font-size: 1.125rem; }
+      .profile-page .main-area .inputs-list .input-field-container {
+        display: flex;
+        max-width: 700px;
+        border-bottom: 2px solid #bdbdbd;
+        line-height: 50px; }
+        .profile-page .main-area .inputs-list .input-field-container .input-label {
+          color: #2070b7;
+          width: 200px;
+          line-height: inherit; }
+        .profile-page .main-area .inputs-list .input-field-container .input-wrapper {
+          flex-grow: 1;
+          line-height: inherit; }
+          .profile-page .main-area .inputs-list .input-field-container .input-wrapper input {
+            width: 100%;
+            line-height: inherit;
+            border: none;
+            background: transparent;
+            color: #616161; }
+            .profile-page .main-area .inputs-list .input-field-container .input-wrapper input:focus {
+              border-bottom: 1px solid lightgray; }
+          .profile-page .main-area .inputs-list .input-field-container .input-wrapper span {
+            font-size: 0.75rem; }
+        .profile-page .main-area .inputs-list .input-field-container.password-fields {
+          border-bottom: none; }
+          .profile-page .main-area .inputs-list .input-field-container.password-fields .input-wrapper {
+            display: flex;
+            flex-direction: column; }
+    .profile-page .main-area .buttons {
+      max-width: 700px; }

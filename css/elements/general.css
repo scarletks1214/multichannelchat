@@ -1,0 +1,32 @@
+.input-no-focus-outline:focus {
+  outline: none; }
+
+.title-editor input {
+  font-size: 1.125rem;
+  border-bottom: 1px solid lightgray;
+  color: #2070b7; }
+  .title-editor input[readonly] {
+    border-bottom: none; }
+
+.svg-icon {
+  fill: #2070b7;
+  height: 20px; }
+
+.fill-white {
+  fill: white; }
+
+.btn-save {
+  font-family: 'Stilu';
+  font-weight: bold;
+  font-style: normal;
+  border-radius: 18px;
+  background: #2427f8;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .btn-save span {
+    padding: 0px 10px 0px 10px; }
+  .btn-save .menu-icon.double-left-arrow {
+    padding-top: 3px; }
+  .btn-save .menu-icon {
+    padding: 0px 10px; }

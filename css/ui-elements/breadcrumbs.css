@@ -1,0 +1,119 @@
+.breadcrumb {
+  border-radius: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: row;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px 0 0;
+  margin: 0;
+  text-transform: uppercase;
+  white-space: nowrap; }
+  .breadcrumb > li {
+    padding: 0; }
+    .breadcrumb > li:before {
+      padding: 0 10px; }
+  .breadcrumb.icon-home > li:first-child:before {
+    font-family: 'simple-line-icons';
+    content: '\e069'; }
+  .breadcrumb.icon-grid > li:first-child:before {
+    font-family: 'simple-line-icons';
+    content: '\e06a'; }
+  .breadcrumb.icon-angle-right > li + li:before {
+    font-family: FontAwesome;
+    content: '\f105'; }
+  .breadcrumb.icon-angle-double-right > li + li:before {
+    font-family: FontAwesome;
+    content: '\f101'; }
+  .breadcrumb.icon-line-right > li + li:before {
+    content: '|'; }
+
+.breadcrumb {
+  color: #757575;
+  background-color: tramap-get(("light": #ffffff, "dark": #181796, "default": #212121, "primary": #2070b7, "secondary": #7b1fa2, "info": #44cfff, "success": #388e3c, "warning": #ffa000, "danger": #d32f2f, "grey": #616161, "lightgrey": #bdbdbd), "light"); }
+  .breadcrumb li {
+    color: #757575; }
+    .breadcrumb li.active a {
+      color: #2070b7; }
+    .breadcrumb li a {
+      color: #757575; }
+  .breadcrumb.transparent, .breadcrumb-transparent, .breadcrumb.no-bg, .breadcrumb-no-bg {
+    background: transparent; }
+  .breadcrumb.breadcrumb-light {
+    background: #ffffff;
+    color: #fff; }
+    .breadcrumb.breadcrumb-light li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-light li a {
+        color: #fff; }
+  .breadcrumb.breadcrumb-dark {
+    background: #181796;
+    color: #fff; }
+    .breadcrumb.breadcrumb-dark li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-dark li a {
+        color: #fff; }
+  .breadcrumb.breadcrumb-default {
+    background: #212121;
+    color: #fff; }
+    .breadcrumb.breadcrumb-default li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-default li a {
+        color: #fff; }
+  .breadcrumb.breadcrumb-primary {
+    background: #2070b7;
+    color: #fff; }
+    .breadcrumb.breadcrumb-primary li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-primary li a {
+        color: #fff; }
+  .breadcrumb.breadcrumb-secondary {
+    background: #7b1fa2;
+    color: #fff; }
+    .breadcrumb.breadcrumb-secondary li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-secondary li a {
+        color: #fff; }
+  .breadcrumb.breadcrumb-info {
+    background: #44cfff;
+    color: #fff; }
+    .breadcrumb.breadcrumb-info li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-info li a {
+        color: #fff; }
+  .breadcrumb.breadcrumb-success {
+    background: #388e3c;
+    color: #fff; }
+    .breadcrumb.breadcrumb-success li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-success li a {
+        color: #fff; }
+  .breadcrumb.breadcrumb-warning {
+    background: #ffa000;
+    color: #fff; }
+    .breadcrumb.breadcrumb-warning li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-warning li a {
+        color: #fff; }
+  .breadcrumb.breadcrumb-danger {
+    background: #d32f2f;
+    color: #fff; }
+    .breadcrumb.breadcrumb-danger li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-danger li a {
+        color: #fff; }
+  .breadcrumb.breadcrumb-grey {
+    background: #616161;
+    color: #fff; }
+    .breadcrumb.breadcrumb-grey li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-grey li a {
+        color: #fff; }
+  .breadcrumb.breadcrumb-lightgrey {
+    background: #bdbdbd;
+    color: #fff; }
+    .breadcrumb.breadcrumb-lightgrey li {
+      color: #fff; }
+      .breadcrumb.breadcrumb-lightgrey li a {
+        color: #fff; }

@@ -1,0 +1,11 @@
+.intent-page {
+  .entity-list {
+    .entity-component {
+      &:hover {
+        > i.fa-trash {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.channel-modal .header {
+  padding: 5px; }
+  .channel-modal .header .channel-logo {
+    width: 40px; }
+  .channel-modal .header span {
+    color: #2070b7;
+    margin-left: 20px; }
+
+.channel-modal .description {
+  padding: 30px 30px 0px 30px; }
+
+.channel-modal .input-container {
+  display: flex;
+  padding: 25px;
+  width: 100%; }
+  .channel-modal .input-container .channel-input {
+    width: 100%; }
+    .channel-modal .input-container .channel-input > div {
+      width: 100%; }
+    .channel-modal .input-container .channel-input .input-wrapper {
+      padding-top: 20px; }
+      .channel-modal .input-container .channel-input .input-wrapper input {
+        width: 100%; }

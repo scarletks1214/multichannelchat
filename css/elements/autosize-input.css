@@ -1,0 +1,15 @@
+.autosize-input {
+  max-width: 100%; }
+  .autosize-input input {
+    font-family: 'Stilu';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.125rem;
+    max-width: 100%;
+    background: none;
+    border: none;
+    margin-bottom: 1px; }
+    .autosize-input input:focus {
+      outline: none;
+      border-bottom: 1px solid lightgray;
+      margin-bottom: 0px; }

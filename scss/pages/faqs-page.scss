@@ -1,0 +1,342 @@
+@import '../variables';
+@import '../mixins';
+
+.faqs-page {
+  margin-bottom: 40px;
+  position: relative;
+  .add-new-wrapper {
+    display: flex;
+    .new-question-set {
+      @include stilu-semi();
+      @include font-size(16px);
+      color: #0056df !important;
+      border: solid 1px #0056df;
+      border-radius: 20px;
+      background: transparent;
+      padding: 10px 20px;
+    }
+
+  }
+  .faq-description {
+    width: 75%;
+    margin-bottom: 2rem;
+    p {
+      color: #4a4a4a;
+      &.faq-example {
+        color: #9b9b9b;
+        span {
+          margin-left: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .autosize-input input {
+    @include font-size(16px);
+    color: map-get($bootstrap-colors, 'primary');
+    // &::placeholder {
+    //   color: map-get($bootstrap-colors, 'primary');
+    // }
+  }
+
+  input.new-product {
+    @include poppins-semi();
+    @include font-size(20px);
+    color: map-get($bootstrap-colors, 'primary') !important;
+    background-color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    &::placeholder {
+      color: #b3b3b3;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .new-entity {
+    @include font-size(20px);
+    @include poppins-semi();
+    color: map-get($bootstrap-colors, 'primary') !important;
+    input {
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+    }
+    img {
+      margin-left: 4px;
+    }
+  }
+
+  .new-synonym {
+    input {
+      @include font-size(16px);
+      @include poppins-semi();
+      border-bottom: solid 1px #b3b3b3;
+      &::placeholder {
+        color: #b3b3b3;
+      }
+    }
+  }
+
+  .product-lists {
+    .product-row {
+      display: flex;
+      align-items: center;
+
+      &.header {
+        margin-bottom: 8px;
+      }
+
+      &:not(.header) {
+        border-bottom: solid 2px #d3d3d3;
+        padding: 16px 14px;
+        .column-name {
+          @include font-size(18px);
+          color: map-get($bootstrap-colors, 'primary');
+        }
+      }
+
+      .column-name {
+        flex-basis: 30%;
+        flex-shrink: 0;
+        min-width: 270px;
+        a {
+          color: inherit;
+        }
+
+        i {
+          margin-left: 8px;
+        }
+      }
+
+      .column-synonym {
+        flex-grow: 1;
+      }
+
+      .synonyms-wrapper {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .synonym-wrapper {
+        position: relative;
+        padding: 10px 20px 5px 0px;
+        input {
+          max-width: 250px;
+        }
+
+        i {
+          color: #44cfff;
+          position: absolute;
+          top: 5px;
+          right: 10px;
+        }
+      }
+    }
+  }
+
+  .faq-questions {
+    ul {
+      list-style: decimal;
+      padding: 0px;
+    }
+  }
+
+  .faq-answers {
+    textarea {
+      width: 100%;
+      padding: 4px;
+      outline: none;
+      border: none;
+      @include font-size(16px);
+      color: map-get($bootstrap-colors, 'primary');
+      &:focus {
+        text-decoration: underline rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+
+  .faq-products {
+    .ReactTags {
+      &__tags {
+        position: relative;
+        // border: solid 1px transparent;
+        padding: 10px 0;
+
+        // &:hover,
+        // &:focus {
+        //   border: solid 1px $gray-200;
+        // }
+      }
+
+      &__selected {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      /* Styles for the input */
+      &__tagInput {
+        flex: 1;
+      }
+      &__tagInputField,
+      &__tagInputField:focus {
+        @include font-size(16px);
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        border: none;
+        padding: 0 4px;
+        outline: none;
+      }
+
+      /* Styles for selected tags */
+      &__tag {
+        @include font-size(16px);
+        background: map-get($bootstrap-colors, 'info');
+        color: #fff;
+        display: inline-block;
+        padding: 2px 8px;
+        margin: 0 5px;
+        border-radius: 5px;
+      }
+      &__remove {
+        color: #fff;
+        margin-left: 5px;
+        cursor: pointer;
+      }
+
+      /* Styles for suggestions */
+      &__suggestions {
+        position: absolute;
+        ul {
+          list-style-type: none;
+          box-shadow: 0.05em 0.01em 0.5em rgba(0, 0, 0, 0.2);
+          background: white;
+          width: 200px;
+          padding: 0;
+        }
+
+        li {
+          padding: 5px 10px;
+          margin: 0;
+          mark {
+            @include stilu-bold();
+            color: inherit;
+            background: none;
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+
+      &__activeSuggestion {
+        background: map-get($bootstrap-colors, 'primary');
+        color: #fff;
+        cursor: pointer;
+        mark {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .page-toolbar {
+    .add-new-wrapper {
+      flex-grow: 1;
+    }
+  }
+}
+
+.faq-smalltalk-question-set {
+  background-color: #fff;
+  border-radius: 9px;
+  margin-top: 10px;
+  padding: 20px;
+  position: relative;
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    @include font-size(18px);
+    color: map-get($bootstrap-colors, 'primary');
+    list-style: none;
+  }
+
+  .collapsed {
+    display: flex;
+    color: map-get($bootstrap-colors, "primary");
+    flex-direction: row;
+
+    .question-answer-wrapper {
+      flex-grow: 1;
+      .collapsed-row {
+        display: flex;
+        padding: 10px;
+        span {
+          margin-left: 10px;
+          white-space: nowrap;
+          overflow-x: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+    .buttons-wrapper {
+      // width: 100px;
+      width: 150px;
+      display: flex;
+      .view-less-expand {
+        // position: absolute;
+        // top: 0px;
+        // right: 0px;W
+        align-self: center;
+        display: flex;
+        line-height: 16px;
+        padding: 10px;
+      }
+
+      .remove {
+        display: none;
+        @include font-size(20px);
+        color: map-get($bootstrap-colors, 'primary');
+        align-self: center;
+        cursor: pointer;
+        margin-left: 10px;
+        // position: absolute;
+        // top: 20px;
+        // right: 25px;
+      }
+    }
+
+    &:hover {
+      .remove {
+        display: block;
+      }
+    }
+
+  }
+  .expanded {
+    .view-less-expand {
+      position: absolute;
+      top: 30px;
+      right: 70px;
+      display: flex;
+      line-height: 16px;
+      padding: 10px;
+    }
+
+    .bottom-buttons-container {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+    }
+  }
+  .view-less-expand {
+    color: map-get($material-design-colors, 'mid-blue');
+    cursor: pointer;
+  }
+}

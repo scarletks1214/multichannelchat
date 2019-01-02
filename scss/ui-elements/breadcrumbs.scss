@@ -1,0 +1,127 @@
+@import '../variables';
+
+$padding: 10px;
+
+.breadcrumb {
+  border-radius: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: row;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 $padding 0 0;
+  margin: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+  > li {
+    padding: 0;
+    &:before {
+      padding: 0 $padding;
+    }
+  }
+  &.icon-home {
+    > li:first-child {
+      &:before {
+        font-family: 'simple-line-icons';
+        content: '\e069';
+      }
+    }
+  }
+  &.icon-grid {
+    > li:first-child {
+      &:before {
+        font-family: 'simple-line-icons';
+        content: '\e06a';
+      }
+    }
+  }
+  &.icon-angle-right {
+    > li {
+      + li:before {
+        font-family: FontAwesome;
+        content: '\f105';
+      }
+    }
+  }
+  &.icon-angle-double-right {
+    > li {
+      + li:before {
+        font-family: FontAwesome;
+        content: '\f101';
+      }
+    }
+  }
+  &.icon-line-right {
+    > li {
+      + li:before {
+        content: '|';
+      }
+    }
+  }
+}
+// @each $key, $value in $default-palette {
+//   [data-background="#{$key}"] {
+//     .breadcrumb {
+//       color: map-get($value, "color");
+//       background-color: map-get($value, "background-color");
+//       li {
+//         color: map-get($value, "color");
+//         a {
+//           color: map-get($value, "color");
+//         }
+//       }
+//       &.transparent,
+//       &-transparent,
+//       &.no-bg,
+//       &-no-bg {
+//         background: transparent;
+//       }
+//       @each $key, $value in $bootstrap-colors {
+//         &.breadcrumb-#{$key} {
+//           background: $value;
+//           color: #fff;
+//           li {
+//             color: #fff;
+//             a {
+//               color: #fff;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+.breadcrumb {
+  color: map-get($material-design-colors, 'grey-600');
+  background-color: tramap-get($bootstrap-colors, 'light');
+  li {
+    color: map-get($material-design-colors, 'grey-600');
+    &.active {
+      a {
+        color: map-get($bootstrap-colors, 'primary');
+      }
+    }
+    a {
+      color: map-get($material-design-colors, 'grey-600');
+    }
+  }
+  &.transparent,
+  &-transparent,
+  &.no-bg,
+  &-no-bg {
+    background: transparent;
+  }
+  @each $key, $value in $bootstrap-colors {
+    &.breadcrumb-#{$key} {
+      background: $value;
+      color: #fff;
+      li {
+        color: #fff;
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

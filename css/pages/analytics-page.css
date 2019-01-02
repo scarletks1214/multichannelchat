@@ -1,0 +1,70 @@
+.analytics-page .btn-period-group .btn-period {
+  font-family: 'Stilu';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+  border: solid 1px #44cfff;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #44cfff;
+  cursor: pointer;
+  margin-right: 10px; }
+  .analytics-page .btn-period-group .btn-period:hover {
+    color: #ffffff;
+    background-color: #44cfff; }
+
+.analytics-page .today-stats {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px 32px; }
+  .analytics-page .today-stats.today-hits {
+    color: #e76d3a; }
+  .analytics-page .today-stats.today-new-user {
+    color: #84b547; }
+  .analytics-page .today-stats.today-total-user {
+    color: #de56df; }
+  .analytics-page .today-stats.today-accuracy {
+    color: #566cdf; }
+  .analytics-page .today-stats .stats-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .analytics-page .today-stats .stats-container .stats-number {
+      font-size: 1.5rem;
+      padding-right: 25px; }
+    .analytics-page .today-stats .stats-container .stats-chart {
+      flex: 1;
+      height: 70px;
+      min-height: 70px;
+      max-height: 70px; }
+  .analytics-page .today-stats label {
+    font-size: 0.875rem;
+    color: #2070b7;
+    margin: 0; }
+
+.analytics-page .chart-container {
+  height: 300px; }
+
+.analytics-page .reactable-column-header th {
+  color: #2070b7;
+  border-top: none; }
+
+.analytics-page .reactable-data td {
+  color: #4d4d4d; }
+
+.analytics-page .reactable-pagination {
+  text-align: center; }
+
+.analytics-page .reactable-page-button {
+  background-color: transparent;
+  color: #4d4d4d; }
+
+.analytics-page .reactable-current-page {
+  font-family: 'Stilu';
+  font-weight: 600;
+  font-style: normal;
+  background-color: transparent;
+  color: #2070b7; }
+
+.analytics-page .reactable-previous-page, .analytics-page .reactable-next-page {
+  color: #679bff; }

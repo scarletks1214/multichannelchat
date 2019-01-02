@@ -1,0 +1,15 @@
+.small-talk__wrapper {
+  width: 75%; }
+
+.small-talk__categories {
+  padding: 0;
+  list-style: none; }
+  .small-talk__categories li {
+    font-size: 1.125rem;
+    color: #2070b7;
+    line-height: 1;
+    padding: 18px; }
+    .small-talk__categories li a {
+      color: inherit; }
+    .small-talk__categories li:not(:last-child) {
+      border-bottom: solid 2px #fff; }

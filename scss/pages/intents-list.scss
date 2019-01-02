@@ -1,0 +1,67 @@
+@import '../variables';
+@import '../mixins';
+
+.intent-list-page {
+  .intents-list {
+    color: map-get($bootstrap-colors, 'primary');
+    .add-intent {
+      .add-intent-btn {
+        width: 200px;
+        line-height: 28px;
+        .title {
+          float: left;
+          line-height: inherit;
+          color: map-get($bootstrap-colors, 'primary');
+        }
+        i {
+          float: right;
+          line-height: inherit;
+        }
+      }
+    }
+    .intent-component {
+      display: flex;
+      line-height: 44px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid white;
+      max-width: 1000px;
+      &.add-intent {
+        margin-top: 30px;
+      }
+      a {
+        color: inherit;
+      }
+      .intent-name {
+        flex-grow: 1;
+        line-height: inherit;
+        @include font-size(18px);
+      }
+      .intent-description {
+        color: map-get($bootstrap-colors, 'grey');
+      }
+      .buttons {
+        text-align: center;
+        line-height: inherit;
+        i {
+          line-height: inherit;
+          min-width: 30px;
+          &.edit {
+            font-size: 18px;
+          }
+          &.remove {
+            font-size: 23px;
+          }
+        }
+        .remove {
+          display: none;
+          height: 40px;
+        }
+      }
+      &:hover {
+        .buttons .remove {
+          display: block;
+        }
+      }
+    }
+  }
+}

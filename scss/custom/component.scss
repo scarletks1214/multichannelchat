@@ -1,0 +1,48 @@
+@import '../variables';
+@import '../mixins';
+
+.input-no-focus-outline {
+  &:focus {
+    outline: none;
+  }
+}
+
+.title-editor {
+  input {
+    @include font-size(18px);
+    border-bottom: 1px solid lightgray;
+    color: map-get($bootstrap-colors, 'primary');
+    &[readonly] {
+      border-bottom: none;
+    }
+  }
+}
+
+.svg-icon {
+  fill: map-get($bootstrap-colors, 'primary');
+  height: 20px;
+}
+
+.fill-white {
+  fill: white;
+}
+
+.btn-save {
+//   @include stilu-bold;
+  // float: right;
+  border-radius: 18px;
+  background: #2427f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    padding: 0px 10px 0px 10px;
+  }
+  .menu-icon.double-left-arrow {
+    padding-top: 3px;
+  }
+  .menu-icon {
+    padding: 0px 10px;
+  }
+}

@@ -1,0 +1,27 @@
+@import '../variables';
+@import '../mixins';
+
+.small-talk {
+  &__wrapper {
+    width: 75%;
+  }
+
+  &__categories {
+    padding: 0;
+    list-style: none;
+    li {
+      @include font-size(18px);
+      color: map-get($bootstrap-colors, 'primary');
+      line-height: 1;
+      padding: 18px;
+
+      a {
+        color: inherit;
+      }
+
+      &:not(:last-child) {
+        border-bottom: solid 2px #fff;
+      }
+    }
+  }
+}

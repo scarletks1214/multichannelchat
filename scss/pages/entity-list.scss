@@ -1,0 +1,18 @@
+@import '../variables';
+@import '../mixins';
+
+.entity-list-page {
+  .add-editor-component {
+    &.new-entity,
+    &.new-entity-value {
+      .autosize-input input {
+        @include font-size(20px);
+        @include poppins-semi();
+        color: map-get($bootstrap-colors, 'primary');
+        &::placeholder {
+          color: map-get($bootstrap-colors, 'primary');
+        }
+      }
+    }
+  }
+}

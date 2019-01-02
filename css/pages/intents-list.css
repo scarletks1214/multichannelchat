@@ -1,0 +1,43 @@
+.intent-list-page .intents-list {
+  color: #2070b7; }
+  .intent-list-page .intents-list .add-intent .add-intent-btn {
+    width: 200px;
+    line-height: 28px; }
+    .intent-list-page .intents-list .add-intent .add-intent-btn .title {
+      float: left;
+      line-height: inherit;
+      color: #2070b7; }
+    .intent-list-page .intents-list .add-intent .add-intent-btn i {
+      float: right;
+      line-height: inherit; }
+  .intent-list-page .intents-list .intent-component {
+    display: flex;
+    line-height: 44px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    max-width: 1000px; }
+    .intent-list-page .intents-list .intent-component.add-intent {
+      margin-top: 30px; }
+    .intent-list-page .intents-list .intent-component a {
+      color: inherit; }
+    .intent-list-page .intents-list .intent-component .intent-name {
+      flex-grow: 1;
+      line-height: inherit;
+      font-size: 1.125rem; }
+    .intent-list-page .intents-list .intent-component .intent-description {
+      color: #616161; }
+    .intent-list-page .intents-list .intent-component .buttons {
+      text-align: center;
+      line-height: inherit; }
+      .intent-list-page .intents-list .intent-component .buttons i {
+        line-height: inherit;
+        min-width: 30px; }
+        .intent-list-page .intents-list .intent-component .buttons i.edit {
+          font-size: 18px; }
+        .intent-list-page .intents-list .intent-component .buttons i.remove {
+          font-size: 23px; }
+      .intent-list-page .intents-list .intent-component .buttons .remove {
+        display: none;
+        height: 40px; }
+    .intent-list-page .intents-list .intent-component:hover .buttons .remove {
+      display: block; }

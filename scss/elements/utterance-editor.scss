@@ -1,0 +1,97 @@
+@import '../variables';
+@import '../mixins';
+
+.utterance-input-container {
+  .utterance-input-editor-wrapper {
+    border: 2px solid map-get($material-design-colors, 'grey-400');
+    padding: 5px 10px 5px 10px;
+    position: relative;
+    .utterance.error {
+      color: map-get($material-design-colors, 'red-700');
+      @include font-size(12px);
+    }
+    .add-new-utterance {
+      position: absolute;
+      top: 0px;
+      right: 10px;
+    }
+    .utterance-input-editor {
+      outline: none;
+      user-select: text;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      -webkit-user-modify: read-write-plaintext-only;
+      line-height: 30px;
+      color: black; //map-get($material-design-colors, "light-blue-700");
+      &:empty:before {
+        content: attr(placeholder);
+        display: block; /* For Firefox */
+        color: map-get($material-design-colors, 'grey-400');
+      }
+      @include font-size(18px);
+      span.decorator {
+        &.part-entity {
+          padding: 5px;
+          &.partial {
+            background-color: map-get($material-design-colors, 'mid-blue');
+            color: white;
+          }
+          &.complete {
+            background-color: #fbb03b;
+            opacity: 0.32;
+          }
+          &.error {
+            background-color: map-get($material-design-colors, 'red-700');
+          }
+          &.warning {
+            background-color: map-get($material-design-colors, 'amber-700');
+          }
+        }
+        &.part-text {
+          &.error {
+            color: map-get($material-design-colors, 'red-700');
+          }
+        }
+      }
+    }
+    .utterance-entity-popup {
+      position: absolute;
+      z-index: 50;
+      background: #ffffff;
+      padding: 10px 20px;
+      border: 1px solid #b6b6bf;
+      box-shadow: 3px 3px 10px -2px #b6b6bf;
+      min-width: 160px;
+
+      .existing-entity-list {
+        &::-webkit-scrollbar {
+          display: block !important;
+          width: 4px !important;
+          &-track {
+            background-color: map-get($material-design-colors, 'grey-300');
+          }
+          &-thumb {
+            background-color: map-get($material-design-colors, 'grey-700');
+          }
+        }
+        max-height: 160px;
+        overflow-y: auto;
+        .entity-item {
+          // padding: 5px 0px;
+          font-size: 1.1rem;
+          color: map-get($bootstrap-colors, 'primary');
+        }
+      }
+      .btn-add-container {
+        padding-top: 20px;
+        .btn-add {
+          font-size: 0.75rem;
+          text-transform: none;
+          i {
+            font-size: inherit;
+          }
+        }
+      }
+    }
+  }
+}

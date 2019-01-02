@@ -1,0 +1,144 @@
+@import '../variables';
+
+.intent-form {
+  .intent-description {
+    max-width: 100%;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+  }
+  .prompt-input {
+    color: black;
+  }
+  .utterance-div {
+    margin-top: 40px;
+    .utterance-header {
+      min-height: 50px;
+      label {
+        h4 {
+          float: left;
+        }
+        span.badge {
+          margin-left: 10px;
+          font-size: 15px;
+          font-weight: bold;
+          padding: 5px 10px;
+        }
+      }
+    }
+    .utterance-contents {
+      table {
+        thead {
+          display: none;
+        }
+        td {
+          padding: 0px;
+          .utterance-editor-container {
+            // display: flex;
+            position: relative;
+            .utterance-input-container {
+              // flex-grow: 1;
+              width: 100%;
+            }
+            .remove-utterance {
+              position: absolute;
+              top: 0;
+              right: 0;
+              display: none;
+              height: 40px;
+              width: 30px;
+            }
+            &:hover {
+              .remove-utterance {
+                display: block;
+              }
+            }
+          }
+          &.checkbox {
+            width: 35px;
+            vertical-align: top;
+            .custom-checkbox {
+              padding-right: 0px;
+              margin-top: 0.5rem;
+              margin-right: 0px;
+              .custom-control-indicator {
+                border: 1px solid
+                  map-get($material-design-colors, 'light-blue-700');
+                background: none;
+                box-shadow: none !important;
+                border-radius: 6px;
+              }
+              .custom-control-input:checked ~ .custom-control-indicator {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='#{map-get($material-design-colors, "light-blue-700")}' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+                background-size: 50% 50%;
+                background-repeat: no-repeat;
+                background-position: 50%;
+              }
+
+              .custom-control-input:indeterminate ~ .custom-control-indicator {
+                box-shadow: none;
+                // background-color: $custom-checkbox-indicator-indeterminate-bg;
+                // background-image: $custom-checkbox-indicator-icon-indeterminate;
+                // @include box-shadow($custom-checkbox-indicator-indeterminate-box-shadow);
+              }
+              &:focus ~ .custom-control-indicator {
+                // the mixin is not used here to make sure there is feedback
+                box-shadow: none !important;
+              }
+            }
+          }
+          .utterance-input-editor-wrapper {
+            border: none;
+          }
+        }
+        .reactable-pagination {
+          line-height: 50px;
+          text-align: center;
+          tr {
+            background-color: transparent;
+          }
+          .reactable-previous-page,
+          .reactable-next-page {
+            color: map-get($bootstrap-colors, 'primary');
+          }
+          .reactable-page-button {
+            color: map-get($material-design-colors, 'grey-500');
+            font-weight: bold;
+            &.reactable-current-page {
+              background-color: transparent;
+              color: map-get($bootstrap-colors, 'dark');
+            }
+          }
+        }
+      }
+    }
+
+    .buttons-container {
+      display: flex;
+      a {
+        padding: 0 10px;
+      }
+      .search-button-container {
+        float: left;
+        flex-grow: 1;
+      }
+    }
+  }
+  .entities-tab {
+    .entity-tab {
+      // color: white;
+      text-transform: none;
+      &:focus {
+        box-shadow: none;
+      }
+      // &.selected-entity-tab {
+      //   background: map-get($material-design-colors, "red-700");
+      //   border-color: map-get($material-design-colors, "red-700");
+      //   &:focus {
+      //     box-shadow: none;// 0 0 0 3px map-get($material-design-colors, "red-700");
+      //   }
+      // }
+    }
+  }
+}

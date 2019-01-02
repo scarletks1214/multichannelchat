@@ -1,0 +1,32 @@
+.login-register-page {
+  color: #84818c;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+  .login-register-page h2 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px; }
+  .login-register-page .sample-form {
+    padding: 80px 120px; }
+  .login-register-page .btn {
+    background-color: #42d7ff;
+    border: none;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-top: 16px; }
+  .login-register-page input.form-control {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: solid 2px #42d7ff !important;
+    background: none;
+    font-family: inherit; }
+    .login-register-page input.form-control::placeholder {
+      color: #42d7ff;
+      opacity: 1; }

@@ -1,0 +1,109 @@
+@import '../variables';
+@import '../mixins';
+
+.analytics-page {
+  .btn-period-group {
+    .btn-period {
+      @include stilu-semi();
+      @include font-size(16px);
+
+      border: solid 1px #44cfff;
+      border-radius: 10px;
+      background-color: #ffffff;
+      color: #44cfff;
+      cursor: pointer;
+
+      margin-right: 10px;
+
+      &:hover {
+        color: #ffffff;
+        background-color: #44cfff;
+      }
+    }
+  }
+
+  .today-stats {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 16px 32px;
+
+    &.today-hits {
+      color: #e76d3a;
+    }
+
+    &.today-new-user {
+      color: #84b547;
+    }
+
+    &.today-total-user {
+      color: #de56df;
+    }
+
+    &.today-accuracy {
+      color: #566cdf;
+    }
+
+    .stats-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .stats-number {
+        @include font-size(24px);
+        padding-right: 25px;
+      }
+
+      .stats-chart {
+        flex: 1;
+        height: 70px;
+        min-height: 70px;
+        max-height: 70px;
+      }
+    }
+
+    label {
+      @include font-size(14px);
+      color: map-get($bootstrap-colors, 'primary');
+      margin: 0;
+    }
+  }
+
+  .chart-container {
+    height: 300px;
+  }
+
+  .reactable {
+    &-column-header {
+      th {
+        color: map-get($material-design-colors, 'mid-blue');
+        border-top: none;
+      }
+    }
+
+    &-data {
+      td {
+        color: #4d4d4d;
+      }
+    }
+
+    &-pagination {
+      text-align: center;
+    }
+
+    &-page-button {
+      background-color: transparent;
+      color: #4d4d4d;
+    }
+
+    &-current-page {
+      @include stilu-semi();
+      background-color: transparent;
+      color: map-get($material-design-colors, 'mid-blue');
+    }
+
+    &-previous-page,
+    &-next-page {
+      color: #679bff;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import '../variables';
+.value-editor-container {
+  padding: 5px;
+  display: flex;
+  // background: white;
+  .value-input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid map-get($material-design-colors, 'grey-400');
+    padding: 5px;
+    flex-grow: 1;
+    &:focus {
+      outline: none;
+    }
+    &[readonly] {
+      border-bottom: none;
+    }
+    &.new-entity-value {
+      border-bottom: none;
+    }
+  }
+  i {
+    line-height: inherit;
+    min-width: 20px;
+    margin-top: 6px;
+    &.edit {
+      font-size: 18px;
+    }
+    &.remove {
+      font-size: 23px;
+    }
+  }
+}
+
+.add-editor-component {
+  height: 33px;
+  padding: 0px 5px 0px 5px;
+  margin-bottom: 8px;
+  .autosize-input {
+    height: inherit;
+    input {
+      padding: 0px;
+      height: inherit;
+    }
+  }
+  img {
+    margin-left: 10px;
+  }
+}

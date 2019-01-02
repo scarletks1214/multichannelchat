@@ -1,0 +1,71 @@
+.workspace-form .custom-react-selector-theme {
+  max-width: 400px; }
+  .workspace-form .custom-react-selector-theme .Select-value-label {
+    font-size: 1.125rem;
+    color: #2070b7 !important;
+    line-height: 30px; }
+  .workspace-form .custom-react-selector-theme .Select-control {
+    border: 1px solid #44cfff; }
+
+.workspace-form .section {
+  padding: 30px 0px; }
+  .workspace-form .section label {
+    color: #212121;
+    padding: 0 0 10px 0; }
+
+.workspace-form .with-flow-container .toggle-container {
+  display: flex; }
+  .workspace-form .with-flow-container .toggle-container .react-toggle {
+    align-self: center; }
+  .workspace-form .with-flow-container .toggle-container span {
+    margin-left: 10px;
+    align-self: center; }
+
+.workspace-form .project-type-container {
+  display: flex;
+  flex-direction: column; }
+  .workspace-form .project-type-container .project-types {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .workspace-form .project-type-container .project-types .project-type-component {
+      background: white;
+      border-radius: 30px;
+      max-width: 300px;
+      min-width: 250px;
+      flex-grow: 1;
+      margin: 0px 20px 20px 0px;
+      position: relative; }
+      .workspace-form .project-type-container .project-types .project-type-component:before {
+        content: '';
+        display: block;
+        margin-top: 100%; }
+      .workspace-form .project-type-container .project-types .project-type-component.selected {
+        border: 1px solid #2070b7; }
+      .workspace-form .project-type-container .project-types .project-type-component .content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding: 20px;
+        text-align: center;
+        vertical-align: center; }
+        .workspace-form .project-type-container .project-types .project-type-component .content .project-logo {
+          min-width: 100px;
+          min-height: 100px;
+          width: 100px;
+          height: 100px;
+          align-self: center; }
+        .workspace-form .project-type-container .project-types .project-type-component .content .title {
+          font-size: 1.125rem;
+          color: #181796;
+          line-height: 40px;
+          font-weight: bold;
+          text-transform: uppercase; }
+        .workspace-form .project-type-container .project-types .project-type-component .content .description {
+          color: #212121; }

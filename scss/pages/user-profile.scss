@@ -1,0 +1,59 @@
+@import '../variables';
+@import '../mixins';
+.profile-page {
+  padding-left: 50px;
+  padding-top: 30px;
+  .main-area {
+    display: flex;
+    flex-direction: column;
+    .info-text {
+      @include font-size(14px);
+    }
+    .inputs-list {
+      display: flex;
+      flex-direction: column;
+      // padding: 20px;
+      @include font-size(18px);
+      .input-field-container {
+        display: flex;
+        max-width: 700px;
+        border-bottom: 2px solid map-get($bootstrap-colors, 'lightgrey');
+        line-height: 50px;
+
+        .input-label {
+          color: map-get($bootstrap-colors, 'primary');
+          width: 200px;
+          line-height: inherit;
+        }
+        .input-wrapper {
+          flex-grow: 1;
+          line-height: inherit;
+          input {
+            width: 100%;
+            line-height: inherit;
+            border: none;
+            background: transparent;
+            color: map-get($bootstrap-colors, 'grey');
+            &:focus {
+              // border-bottom: none;
+              border-bottom: 1px solid lightgray;
+            }
+          }
+          span {
+            @include font-size(12px);
+          }
+        }
+        &.password-fields {
+          border-bottom: none;
+          .input-wrapper {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+    .buttons {
+      max-width: 700px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "faqs": {
+    "label": "Faq",
+    "value": "faqs",
+    "icon": "IconFaqs"
+  },
+  "retail-banking": {
+    "label": "Retail Banking",
+    "value": "retail-banking",
+    "icon": "IconRetailBanking"
+  }
+}

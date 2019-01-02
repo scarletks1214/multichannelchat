@@ -1,0 +1,19 @@
+{
+  "language": "EN",
+  "organisation": "CM",
+  "classifier": {
+    "intents": {
+      "txn-moneymovement": {
+        "entities": ["sys.amount", "banking.payee-name", "banking.from-account"]
+      },
+      "qry-authenticationissue": {
+        "entities": [],
+        "modifiers": ["login", "password"]
+      },
+      "txn-buysecurity": {
+        "entities": ["globalmarkets.exchange-name","sys.currency-code","globalmarkets.investment-mode","sys.frequency","sys.date","sys.date-range","sys.amount","globalmarkets.buy-sell-tenure","sys.quantity","banking.account-type","banking.account-number","sys.country","globalmarkets.product-type","sys.itemNumber"],
+        "modifiers": ["fresh_additional"]
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "value": "en",
+        "label": "English"
+    },
+    {
+        "value": "zh",
+        "label": "Chinese"
+    },
+    {
+        "value": "es",
+        "label": "Spanish"
+    }
+]

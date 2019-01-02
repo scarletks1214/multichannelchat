@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "response": {
+    "channels": [
+      {
+        "channel": "telegram",
+        "enable": false,
+        "details": [
+          {
+            "name": "Telegram token",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "channel": "line",
+        "enable": true,
+        "details": [
+          {
+            "name": "Line App Id",
+            "value": "",
+            "editable": false
+          }
+        ]
+      }
+    ]
+  }
+}

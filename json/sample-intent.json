@@ -1,0 +1,19 @@
+{
+  "entities": ["sys.amount", "banking.payee-name", "banking.from-account"],
+  "utterances": [
+    "send money",
+    "transfer",
+    "send {sys.amount} to {banking.payee-name}"
+  ],
+  "name": "Test Intent Name",
+  "description": "Test Intent",
+  "dialog": {
+    "sys.amount": {
+      "prompt": ["How much do you want to pay transfer"],
+      "utterances": [
+        "send money {sys.amount}",
+        "transfer no money at all"
+      ]
+    }
+  }
+}

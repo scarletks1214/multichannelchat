@@ -1,0 +1,17 @@
+[
+  {
+     "id": "workspace1",
+     "name": "Sample Workspace1",
+     "type": "project-type1"
+  },
+  {
+    "id": "workspace2",
+    "name": "Sample Workspace2",
+    "type": "project-type2"
+ },
+ {
+  "id": "workspace3",
+  "name": "Sample Workspace3",
+  "type": "project-type3"
+  }
+]

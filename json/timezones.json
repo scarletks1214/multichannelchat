@@ -1,0 +1,14 @@
+[
+    {
+        "value": "est",
+        "label": "EST timezone (UTC-5)"
+    },
+    {
+        "value": "pst",
+        "label": "PST timezone (UTC-8)"
+    },
+    {
+        "value": "hkt",
+        "label": "Hong Kong timezone (UTC+8)"
+    }
+]

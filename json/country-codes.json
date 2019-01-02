@@ -1,0 +1,467 @@
+[
+  { "label": "AALAND ISLANDS", "value": "AX", "alpha3": "ALA", "number": 248 },
+  { "label": "AFGHANISTAN", "value": "AF", "alpha3": "AFG", "number": 4 },
+  { "label": "ALBANIA", "value": "AL", "alpha3": "ALB", "number": 8 },
+  { "label": "ALGERIA", "value": "DZ", "alpha3": "DZA", "number": 12 },
+  { "label": "AMERICAN SAMOA", "value": "AS", "alpha3": "ASM", "number": 16 },
+  { "label": "ANDORRA", "value": "AD", "alpha3": "AND", "number": 20 },
+  { "label": "ANGOLA", "value": "AO", "alpha3": "AGO", "number": 24 },
+  { "label": "ANGUILLA", "value": "AI", "alpha3": "AIA", "number": 660 },
+  { "label": "ANTARCTICA", "value": "AQ", "alpha3": "ATA", "number": 10 },
+  {
+    "label": "ANTIGUA AND BARBUDA",
+    "value": "AG",
+    "alpha3": "ATG",
+    "number": 28
+  },
+  { "label": "ARGENTINA", "value": "AR", "alpha3": "ARG", "number": 32 },
+  { "label": "ARMENIA", "value": "AM", "alpha3": "ARM", "number": 51 },
+  { "label": "ARUBA", "value": "AW", "alpha3": "ABW", "number": 533 },
+  { "label": "AUSTRALIA", "value": "AU", "alpha3": "AUS", "number": 36 },
+  { "label": "AUSTRIA", "value": "AT", "alpha3": "AUT", "number": 40 },
+  { "label": "AZERBAIJAN", "value": "AZ", "alpha3": "AZE", "number": 31 },
+  { "label": "BAHAMAS", "value": "BS", "alpha3": "BHS", "number": 44 },
+  { "label": "BAHRAIN", "value": "BH", "alpha3": "BHR", "number": 48 },
+  { "label": "BANGLADESH", "value": "BD", "alpha3": "BGD", "number": 50 },
+  { "label": "BARBADOS", "value": "BB", "alpha3": "BRB", "number": 52 },
+  { "label": "BELARUS", "value": "BY", "alpha3": "BLR", "number": 112 },
+  { "label": "BELGIUM", "value": "BE", "alpha3": "BEL", "number": 56 },
+  { "label": "BELIZE", "value": "BZ", "alpha3": "BLZ", "number": 84 },
+  { "label": "BENIN", "value": "BJ", "alpha3": "BEN", "number": 204 },
+  { "label": "BERMUDA", "value": "BM", "alpha3": "BMU", "number": 60 },
+  { "label": "BHUTAN", "value": "BT", "alpha3": "BTN", "number": 64 },
+  { "label": "BOLIVIA", "value": "BO", "alpha3": "BOL", "number": 68 },
+  {
+    "label": "BOSNIA AND HERZEGOWINA",
+    "value": "BA",
+    "alpha3": "BIH",
+    "number": 70
+  },
+  { "label": "BOTSWANA", "value": "BW", "alpha3": "BWA", "number": 72 },
+  { "label": "BOUVET ISLAND", "value": "BV", "alpha3": "BVT", "number": 74 },
+  { "label": "BRAZIL", "value": "BR", "alpha3": "BRA", "number": 76 },
+  {
+    "label": "BRITISH INDIAN OCEAN TERRITORY",
+    "value": "IO",
+    "alpha3": "IOT",
+    "number": 86
+  },
+  {
+    "label": "BRUNEI DARUSSALAM",
+    "value": "BN",
+    "alpha3": "BRN",
+    "number": 96
+  },
+  { "label": "BULGARIA", "value": "BG", "alpha3": "BGR", "number": 100 },
+  { "label": "BURKINA FASO", "value": "BF", "alpha3": "BFA", "number": 854 },
+  { "label": "BURUNDI", "value": "BI", "alpha3": "BDI", "number": 108 },
+  { "label": "CAMBODIA", "value": "KH", "alpha3": "KHM", "number": 116 },
+  { "label": "CAMEROON", "value": "CM", "alpha3": "CMR", "number": 120 },
+  { "label": "CANADA", "value": "CA", "alpha3": "CAN", "number": 124 },
+  { "label": "CAPE VERDE", "value": "CV", "alpha3": "CPV", "number": 132 },
+  { "label": "CAYMAN ISLANDS", "value": "KY", "alpha3": "CYM", "number": 136 },
+  {
+    "label": "CENTRAL AFRICAN REPUBLIC",
+    "value": "CF",
+    "alpha3": "CAF",
+    "number": 140
+  },
+  { "label": "CHAD", "value": "TD", "alpha3": "TCD", "number": 148 },
+  { "label": "CHILE", "value": "CL", "alpha3": "CHL", "number": 152 },
+  { "label": "CHINA", "value": "CN", "alpha3": "CHN", "number": 156 },
+  {
+    "label": "CHRISTMAS ISLAND",
+    "value": "CX",
+    "alpha3": "CXR",
+    "number": 162
+  },
+  {
+    "label": "COCOS (KEELING) ISLANDS",
+    "value": "CC",
+    "alpha3": "CCK",
+    "number": 166
+  },
+  { "label": "COLOMBIA", "value": "CO", "alpha3": "COL", "number": 170 },
+  { "label": "COMOROS", "value": "KM", "alpha3": "COM", "number": 174 },
+  {
+    "label": "DEMOCRATIC REPUBLIC OF CONGO",
+    "value": "CD",
+    "alpha3": "COD",
+    "number": 180
+  },
+  {
+    "label": "REPUBLIC OF CONGO",
+    "value": "CG",
+    "alpha3": "COG",
+    "number": 178
+  },
+  { "label": "COOK ISLANDS", "value": "CK", "alpha3": "COK", "number": 184 },
+  { "label": "COSTA RICA", "value": "CR", "alpha3": "CRI", "number": 188 },
+  { "label": "COTE D'IVOIRE", "value": "CI", "alpha3": "CIV", "number": 384 },
+  { "label": "CROATIA", "value": "HR", "alpha3": "HRV", "number": 191 },
+  { "label": "CUBA", "value": "CU", "alpha3": "CUB", "number": 192 },
+  { "label": "CYPRUS", "value": "CY", "alpha3": "CYP", "number": 196 },
+  { "label": "CZECH REPUBLIC", "value": "CZ", "alpha3": "CZE", "number": 203 },
+  { "label": "DENMARK", "value": "DK", "alpha3": "DNK", "number": 208 },
+  { "label": "DJIBOUTI", "value": "DJ", "alpha3": "DJI", "number": 262 },
+  { "label": "DOMINICA", "value": "DM", "alpha3": "DMA", "number": 212 },
+  {
+    "label": "DOMINICAN REPUBLIC",
+    "value": "DO",
+    "alpha3": "DOM",
+    "number": 214
+  },
+  { "label": "ECUADOR", "value": "EC", "alpha3": "ECU", "number": 218 },
+  { "label": "EGYPT", "value": "EG", "alpha3": "EGY", "number": 818 },
+  { "label": "EL SALVADOR", "value": "SV", "alpha3": "SLV", "number": 222 },
+  {
+    "label": "EQUATORIAL GUINEA",
+    "value": "GQ",
+    "alpha3": "GNQ",
+    "number": 226
+  },
+  { "label": "ERITREA", "value": "ER", "alpha3": "ERI", "number": 232 },
+  { "label": "ESTONIA", "value": "EE", "alpha3": "EST", "number": 233 },
+  { "label": "ETHIOPIA", "value": "ET", "alpha3": "ETH", "number": 231 },
+  {
+    "label": "FALKLAND ISLANDS (MALVINAS)",
+    "value": "FK",
+    "alpha3": "FLK",
+    "number": 238
+  },
+  { "label": "FAROE ISLANDS", "value": "FO", "alpha3": "FRO", "number": 234 },
+  { "label": "FIJI", "value": "FJ", "alpha3": "FJI", "number": 242 },
+  { "label": "FINLAND", "value": "FI", "alpha3": "FIN", "number": 246 },
+  { "label": "FRANCE", "value": "FR", "alpha3": "FRA", "number": 250 },
+  { "label": "FRENCH GUIANA", "value": "GF", "alpha3": "GUF", "number": 254 },
+  {
+    "label": "FRENCH POLYNESIA",
+    "value": "PF",
+    "alpha3": "PYF",
+    "number": 258
+  },
+  {
+    "label": "FRENCH SOUTHERN TERRITORIES",
+    "value": "TF",
+    "alpha3": "ATF",
+    "number": 260
+  },
+  { "label": "GABON", "value": "GA", "alpha3": "GAB", "number": 266 },
+  { "label": "GAMBIA", "value": "GM", "alpha3": "GMB", "number": 270 },
+  { "label": "GEORGIA", "value": "GE", "alpha3": "GEO", "number": 268 },
+  { "label": "GERMANY", "value": "DE", "alpha3": "DEU", "number": 276 },
+  { "label": "GHANA", "value": "GH", "alpha3": "GHA", "number": 288 },
+  { "label": "GIBRALTAR", "value": "GI", "alpha3": "GIB", "number": 292 },
+  { "label": "GREECE", "value": "GR", "alpha3": "GRC", "number": 300 },
+  { "label": "GREENLAND", "value": "GL", "alpha3": "GRL", "number": 304 },
+  { "label": "GRENADA", "value": "GD", "alpha3": "GRD", "number": 308 },
+  { "label": "GUADELOUPE", "value": "GP", "alpha3": "GLP", "number": 312 },
+  { "label": "GUAM", "value": "GU", "alpha3": "GUM", "number": 316 },
+  { "label": "GUATEMALA", "value": "GT", "alpha3": "GTM", "number": 320 },
+  { "label": "GUINEA", "value": "GN", "alpha3": "GIN", "number": 324 },
+  { "label": "GUINEA-BISSAU", "value": "GW", "alpha3": "GNB", "number": 624 },
+  { "label": "GUYANA", "value": "GY", "alpha3": "GUY", "number": 328 },
+  { "label": "HAITI", "value": "HT", "alpha3": "HTI", "number": 332 },
+  {
+    "label": "HEARD AND MC DONALD ISLANDS",
+    "value": "HM",
+    "alpha3": "HMD",
+    "number": 334
+  },
+  { "label": "HONDURAS", "value": "HN", "alpha3": "HND", "number": 340 },
+  { "label": "HONG KONG", "value": "HK", "alpha3": "HKG", "number": 344 },
+  { "label": "HUNGARY", "value": "HU", "alpha3": "HUN", "number": 348 },
+  { "label": "ICELAND", "value": "IS", "alpha3": "ISL", "number": 352 },
+  { "label": "INDIA", "value": "IN", "alpha3": "IND", "number": 356 },
+  { "label": "INDONESIA", "value": "ID", "alpha3": "IDN", "number": 360 },
+  { "label": "IRAN", "value": "IR", "alpha3": "IRN", "number": 364 },
+  { "label": "IRAQ", "value": "IQ", "alpha3": "IRQ", "number": 368 },
+  { "label": "IRELAND", "value": "IE", "alpha3": "IRL", "number": 372 },
+  { "label": "ISRAEL", "value": "IL", "alpha3": "ISR", "number": 376 },
+  { "label": "ITALY", "value": "IT", "alpha3": "ITA", "number": 380 },
+  { "label": "JAMAICA", "value": "JM", "alpha3": "JAM", "number": 388 },
+  { "label": "JAPAN", "value": "JP", "alpha3": "JPN", "number": 392 },
+  { "label": "JORDAN", "value": "JO", "alpha3": "JOR", "number": 400 },
+  { "label": "KAZAKHSTAN", "value": "KZ", "alpha3": "KAZ", "number": 398 },
+  { "label": "KENYA", "value": "KE", "alpha3": "KEN", "number": 404 },
+  { "label": "KIRIBATI", "value": "KI", "alpha3": "KIR", "number": 296 },
+  {
+    "label": "DEMOCRATIC PEOPLE'S REPUBLIC OF KOREA",
+    "value": "KP",
+    "alpha3": "PRK",
+    "number": 408
+  },
+  {
+    "label": "REPUBLIC OF KOREA",
+    "value": "KR",
+    "alpha3": "KOR",
+    "number": 410
+  },
+  { "label": "KUWAIT", "value": "KW", "alpha3": "KWT", "number": 414 },
+  { "label": "KYRGYZSTAN", "value": "KG", "alpha3": "KGZ", "number": 417 },
+  {
+    "label": "LAO PEOPLE'S DEMOCRATIC REPUBLIC",
+    "value": "LA",
+    "alpha3": "LAO",
+    "number": 418
+  },
+  { "label": "LATVIA", "value": "LV", "alpha3": "LVA", "number": 428 },
+  { "label": "LEBANON", "value": "LB", "alpha3": "LBN", "number": 422 },
+  { "label": "LESOTHO", "value": "LS", "alpha3": "LSO", "number": 426 },
+  { "label": "LIBERIA", "value": "LR", "alpha3": "LBR", "number": 430 },
+  {
+    "label": "LIBYAN ARAB JAMAHIRIYA",
+    "value": "LY",
+    "alpha3": "LBY",
+    "number": 434
+  },
+  { "label": "LIECHTENSTEIN", "value": "LI", "alpha3": "LIE", "number": 438 },
+  { "label": "LITHUANIA", "value": "LT", "alpha3": "LTU", "number": 440 },
+  { "label": "LUXEMBOURG", "value": "LU", "alpha3": "LUX", "number": 442 },
+  { "label": "MACAU", "value": "MO", "alpha3": "MAC", "number": 446 },
+  {
+    "label": "THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA",
+    "value": "MK",
+    "alpha3": "MKD",
+    "number": 807
+  },
+  { "label": "MADAGASCAR", "value": "MG", "alpha3": "MDG", "number": 450 },
+  { "label": "MALAWI", "value": "MW", "alpha3": "MWI", "number": 454 },
+  { "label": "MALAYSIA", "value": "MY", "alpha3": "MYS", "number": 458 },
+  { "label": "MALDIVES", "value": "MV", "alpha3": "MDV", "number": 462 },
+  { "label": "MALI", "value": "ML", "alpha3": "MLI", "number": 466 },
+  { "label": "MALTA", "value": "MT", "alpha3": "MLT", "number": 470 },
+  {
+    "label": "MARSHALL ISLANDS",
+    "value": "MH",
+    "alpha3": "MHL",
+    "number": 584
+  },
+  { "label": "MARTINIQUE", "value": "MQ", "alpha3": "MTQ", "number": 474 },
+  { "label": "MAURITANIA", "value": "MR", "alpha3": "MRT", "number": 478 },
+  { "label": "MAURITIUS", "value": "MU", "alpha3": "MUS", "number": 480 },
+  { "label": "MAYOTTE", "value": "YT", "alpha3": "MYT", "number": 175 },
+  { "label": "MEXICO", "value": "MX", "alpha3": "MEX", "number": 484 },
+  {
+    "label": "FEDERATED STATES OF MICRONESIA",
+    "value": "FM",
+    "alpha3": "FSM",
+    "number": 583
+  },
+  {
+    "label": "REPUBLIC OF MOLDOVA",
+    "value": "MD",
+    "alpha3": "MDA",
+    "number": 498
+  },
+  { "label": "MONACO", "value": "MC", "alpha3": "MCO", "number": 492 },
+  { "label": "MONGOLIA", "value": "MN", "alpha3": "MNG", "number": 496 },
+  { "label": "MONTSERRAT", "value": "MS", "alpha3": "MSR", "number": 500 },
+  { "label": "MOROCCO", "value": "MA", "alpha3": "MAR", "number": 504 },
+  { "label": "MOZAMBIQUE", "value": "MZ", "alpha3": "MOZ", "number": 508 },
+  { "label": "MYANMAR", "value": "MM", "alpha3": "MMR", "number": 104 },
+  { "label": "NAMIBIA", "value": "NA", "alpha3": "NAM", "number": 516 },
+  { "label": "NAURU", "value": "NR", "alpha3": "NRU", "number": 520 },
+  { "label": "NEPAL", "value": "NP", "alpha3": "NPL", "number": 524 },
+  { "label": "NETHERLANDS", "value": "NL", "alpha3": "NLD", "number": 528 },
+  {
+    "label": "NETHERLANDS ANTILLES",
+    "value": "AN",
+    "alpha3": "ANT",
+    "number": 530
+  },
+  { "label": "NEW CALEDONIA", "value": "NC", "alpha3": "NCL", "number": 540 },
+  { "label": "NEW ZEALAND", "value": "NZ", "alpha3": "NZL", "number": 554 },
+  { "label": "NICARAGUA", "value": "NI", "alpha3": "NIC", "number": 558 },
+  { "label": "NIGER", "value": "NE", "alpha3": "NER", "number": 562 },
+  { "label": "NIGERIA", "value": "NG", "alpha3": "NGA", "number": 566 },
+  { "label": "NIUE", "value": "NU", "alpha3": "NIU", "number": 570 },
+  { "label": "NORFOLK ISLAND", "value": "NF", "alpha3": "NFK", "number": 574 },
+  {
+    "label": "NORTHERN MARIANA ISLANDS",
+    "value": "MP",
+    "alpha3": "MNP",
+    "number": 580
+  },
+  { "label": "NORWAY", "value": "NO", "alpha3": "NOR", "number": 578 },
+  { "label": "OMAN", "value": "OM", "alpha3": "OMN", "number": 512 },
+  { "label": "PAKISTAN", "value": "PK", "alpha3": "PAK", "number": 586 },
+  { "label": "PALAU", "value": "PW", "alpha3": "PLW", "number": 585 },
+  {
+    "label": "PALESTINIAN TERRITORY",
+    "value": "PS",
+    "alpha3": "PSE",
+    "number": 275
+  },
+  { "label": "PANAMA", "value": "PA", "alpha3": "PAN", "number": 591 },
+  {
+    "label": "PAPUA NEW GUINEA",
+    "value": "PG",
+    "alpha3": "PNG",
+    "number": 598
+  },
+  { "label": "PARAGUAY", "value": "PY", "alpha3": "PRY", "number": 600 },
+  { "label": "PERU", "value": "PE", "alpha3": "PER", "number": 604 },
+  { "label": "PHILIPPINES", "value": "PH", "alpha3": "PHL", "number": 608 },
+  { "label": "PITCAIRN", "value": "PN", "alpha3": "PCN", "number": 612 },
+  { "label": "POLAND", "value": "PL", "alpha3": "POL", "number": 616 },
+  { "label": "PORTUGAL", "value": "PT", "alpha3": "PRT", "number": 620 },
+  { "label": "PUERTO RICO", "value": "PR", "alpha3": "PRI", "number": 630 },
+  { "label": "QATAR", "value": "QA", "alpha3": "QAT", "number": 634 },
+  { "label": "REUNION", "value": "RE", "alpha3": "REU", "number": 638 },
+  { "label": "ROMANIA", "value": "RO", "alpha3": "ROU", "number": 642 },
+  {
+    "label": "RUSSIAN FEDERATION",
+    "value": "RU",
+    "alpha3": "RUS",
+    "number": 643
+  },
+  { "label": "RWANDA", "value": "RW", "alpha3": "RWA", "number": 646 },
+  { "label": "SAINT HELENA", "value": "SH", "alpha3": "SHN", "number": 654 },
+  {
+    "label": "SAINT KITTS AND NEVIS",
+    "value": "KN",
+    "alpha3": "KNA",
+    "number": 659
+  },
+  { "label": "SAINT LUCIA", "value": "LC", "alpha3": "LCA", "number": 662 },
+  {
+    "label": "SAINT PIERRE AND MIQUELON",
+    "value": "PM",
+    "alpha3": "SPM",
+    "number": 666
+  },
+  {
+    "label": "SAINT VINCENT AND THE GRENADINES",
+    "value": "VC",
+    "alpha3": "VCT",
+    "number": 670
+  },
+  { "label": "SAMOA", "value": "WS", "alpha3": "WSM", "number": 882 },
+  { "label": "SAN MARINO", "value": "SM", "alpha3": "SMR", "number": 674 },
+  {
+    "label": "SAO TOME AND PRINCIPE",
+    "value": "ST",
+    "alpha3": "STP",
+    "number": 678
+  },
+  { "label": "SAUDI ARABIA", "value": "SA", "alpha3": "SAU", "number": 682 },
+  { "label": "SENEGAL", "value": "SN", "alpha3": "SEN", "number": 686 },
+  {
+    "label": "SERBIA AND MONTENEGRO",
+    "value": "CS",
+    "alpha3": "SCG",
+    "number": 891
+  },
+  { "label": "SEYCHELLES", "value": "SC", "alpha3": "SYC", "number": 690 },
+  { "label": "SIERRA LEONE", "value": "SL", "alpha3": "SLE", "number": 694 },
+  { "label": "SINGAPORE", "value": "SG", "alpha3": "SGP", "number": 702 },
+  { "label": "SLOVAKIA", "value": "SK", "alpha3": "SVK", "number": 703 },
+  { "label": "SLOVENIA", "value": "SI", "alpha3": "SVN", "number": 705 },
+  { "label": "SOLOMON ISLANDS", "value": "SB", "alpha3": "SLB", "number": 90 },
+  { "label": "SOMALIA", "value": "SO", "alpha3": "SOM", "number": 706 },
+  { "label": "SOUTH AFRICA", "value": "ZA", "alpha3": "ZAF", "number": 710 },
+  {
+    "label": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
+    "value": "GS",
+    "alpha3": "SGS",
+    "number": 239
+  },
+  { "label": "SPAIN", "value": "ES", "alpha3": "ESP", "number": 724 },
+  { "label": "SRI LANKA", "value": "LK", "alpha3": "LKA", "number": 144 },
+  { "label": "SUDAN", "value": "SD", "alpha3": "SDN", "number": 736 },
+  { "label": "SURIlabel", "value": "SR", "alpha3": "SUR", "number": 740 },
+  {
+    "label": "SVALBARD AND JAN MAYEN ISLANDS",
+    "value": "SJ",
+    "alpha3": "SJM",
+    "number": 744
+  },
+  { "label": "SWAZILAND", "value": "SZ", "alpha3": "SWZ", "number": 748 },
+  { "label": "SWEDEN", "value": "SE", "alpha3": "SWE", "number": 752 },
+  { "label": "SWITZERLAND", "value": "CH", "alpha3": "CHE", "number": 756 },
+  {
+    "label": "SYRIAN ARAB REPUBLIC",
+    "value": "SY",
+    "alpha3": "SYR",
+    "number": 760
+  },
+  { "label": "TAIWAN", "value": "TW", "alpha3": "TWN", "number": 158 },
+  { "label": "TAJIKISTAN", "value": "TJ", "alpha3": "TJK", "number": 762 },
+  {
+    "label": "UNITED REPUBLIC OF TANZANIA",
+    "value": "TZ",
+    "alpha3": "TZA",
+    "number": 834
+  },
+  { "label": "THAILAND", "value": "TH", "alpha3": "THA", "number": 764 },
+  { "label": "TIMOR-LESTE", "value": "TL", "alpha3": "TLS", "number": 626 },
+  { "label": "TOGO", "value": "TG", "alpha3": "TGO", "number": 768 },
+  { "label": "TOKELAU", "value": "TK", "alpha3": "TKL", "number": 772 },
+  { "label": "TONGA", "value": "TO", "alpha3": "TON", "number": 776 },
+  {
+    "label": "TRINIDAD AND TOBAGO",
+    "value": "TT",
+    "alpha3": "TTO",
+    "number": 780
+  },
+  { "label": "TUNISIA", "value": "TN", "alpha3": "TUN", "number": 788 },
+  { "label": "TURKEY", "value": "TR", "alpha3": "TUR", "number": 792 },
+  { "label": "TURKMENISTAN", "value": "TM", "alpha3": "TKM", "number": 795 },
+  {
+    "label": "TURKS AND CAICOS ISLANDS",
+    "value": "TC",
+    "alpha3": "TCA",
+    "number": 796
+  },
+  { "label": "TUVALU", "value": "TV", "alpha3": "TUV", "number": 798 },
+  { "label": "UGANDA", "value": "UG", "alpha3": "UGA", "number": 800 },
+  { "label": "UKRAINE", "value": "UA", "alpha3": "UKR", "number": 804 },
+  {
+    "label": "UNITED ARAB EMIRATES",
+    "value": "AE",
+    "alpha3": "ARE",
+    "number": 784
+  },
+  { "label": "UNITED KINGDOM", "value": "GB", "alpha3": "GBR", "number": 826 },
+  { "label": "UNITED STATES", "value": "US", "alpha3": "USA", "number": 840 },
+  {
+    "label": "UNITED STATES MINOR OUTLYING ISLANDS",
+    "value": "UM",
+    "alpha3": "UMI",
+    "number": 581
+  },
+  { "label": "URUGUAY", "value": "UY", "alpha3": "URY", "number": 858 },
+  { "label": "UZBEKISTAN", "value": "UZ", "alpha3": "UZB", "number": 860 },
+  { "label": "VANUATU", "value": "VU", "alpha3": "VUT", "number": 548 },
+  {
+    "label": "VATICAN CITY STATE (HOLY SEE)",
+    "value": "VA",
+    "alpha3": "VAT",
+    "number": 336
+  },
+  { "label": "VENEZUELA", "value": "VE", "alpha3": "VEN", "number": 862 },
+  { "label": "VIET NAM", "value": "VN", "alpha3": "VNM", "number": 704 },
+  {
+    "label": "VIRGIN ISLANDS (BRITISH)",
+    "value": "VG",
+    "alpha3": "VGB",
+    "number": 92
+  },
+  {
+    "label": "VIRGIN ISLANDS (U.S.)",
+    "value": "VI",
+    "alpha3": "VIR",
+    "number": 850
+  },
+  {
+    "label": "WALLIS AND FUTUNA ISLANDS",
+    "value": "WF",
+    "alpha3": "WLF",
+    "number": 876
+  },
+  { "label": "WESTERN SAHARA", "value": "EH", "alpha3": "ESH", "number": 732 },
+  { "label": "YEMEN", "value": "YE", "alpha3": "YEM", "number": 887 },
+  { "label": "ZAMBIA", "value": "ZM", "alpha3": "ZMB", "number": 894 },
+  { "label": "ZIMBABWE", "value": "ZW", "alpha3": "ZWE", "number": 716 }
+]

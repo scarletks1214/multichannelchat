@@ -1,0 +1,80 @@
+{
+  "language": "EN",
+  "organisation": "CM",
+  "classifier": {
+    "intents": {
+      "txn-moneymovement": {
+        "entities": [
+          "sys.amount",
+          "banking.payee-name",
+          "banking.from-account"
+        ],
+        "description":
+          "In order to bring about this secession, military action was initiated by the secessionists, and the Union responded in kind. The ensuing war would become the deadliest military conflict in American history, resulting in the deaths of approximately 618,000 soldiers as well as many civilians."
+      },
+      "qry-authenticationissue": {
+        "entities": [],
+        "modifiers": ["login", "password"],
+        "description":
+          "While President Lincoln attempted to foster friendship and forgiveness between the Union and the former Confederacy, an assassin's bullet on April 14, 1865, drove a wedge between North and South again. Republicans in the federal government made it their goal to oversee the rebuilding of the South and to ensure the rights of African Americans. "
+      },
+      "txn-buysecurity": {
+        "entities": [
+          "globalmarkets.exchange-name",
+          "sys.currency-code",
+          "globalmarkets.investment-mode",
+          "sys.frequency",
+          "sys.date",
+          "sys.date-range",
+          "sys.amount",
+          "globalmarkets.buy-sell-tenure",
+          "sys.quantity",
+          "banking.account-type",
+          "banking.account-number",
+          "sys.country",
+          "globalmarkets.product-type",
+          "sys.itemNumber"
+        ],
+        "modifiers": ["fresh_additional"],
+        "description":
+          "Following the passage of the Lee Resolution, on July 2, 1776, which was the actual vote for independence, the Second Continental Congress adopted the Declaration of Independence on July 4, which recognized, in a long preamble, that all men are equal and endowed by their Creator with unalienable rights and that those rights were not being protected by Great Britain, and declared, in the words of the resolution, that the Thirteen Colonies were independent states and had no allegiance to the British crown in the United States. "
+      }
+    },
+    "entities": {
+      "globalmarkets.product-type": {
+        "type": "dict",
+        "values": {
+          "account": [
+            "account",
+            "bank account",
+            "account holder",
+            "credit account",
+            "awesome account"
+          ],
+          "debitcard": ["debit card", "debitcard"]
+        }
+      },
+      "globalmarkets.product-list": {
+        "type": "dict",
+        "values": {
+          "account": ["account", "bank account"],
+          "debitcard": ["debit card", "debitcard"]
+        }
+      },
+      "sys.amount": {
+        "type": "dict",
+        "values": {
+          "account": ["amount", "currency"],
+          "sys": ["sys state", "system"]
+        }
+      },
+      "banking.payee-name": {
+        "type": "dict",
+        "values": {
+          "banking": ["bank", "bank account"],
+          "payee": ["person", "client"]
+        }
+      }
+    }
+  }
+}
